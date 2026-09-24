@@ -60,7 +60,7 @@ function inisialisasiGame() {
     partikelArray = [];
     acakPosisiUmpan();
     if (gameLoopInterval) clearInterval(gameLoopInterval);
-    gameLoopInterval = setInterval(updateDanRender, 180);
+    gameLoopInterval = setInterval(updateDanRender, 200);
     gameBerjalan = true;
     btnRestart.innerText = "Reset Kontrol 🎮";
 }
